@@ -1,0 +1,545 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+img{border:none;}
+a{
+    text-decoration: none;
+}
+
+
+.header{
+    width: 1336px;
+    height: 514px;
+    background-image: url("images/header.jpg");
+    margin: 0px auto;
+    position: relative;
+    overflow: hidden;
+}
+.face{
+    width: 158px;
+    height: 158px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    background-color: red;
+    margin: 0 auto;
+    position: relative;
+    top: 187px;
+    background-image: url("images/touxiang1.jpg");
+    background-position: -95px -30px;
+}
+.navigation{
+    float: right;
+    margin-right: 67px;
+    margin-top: 34px;
+}
+.navigation li{
+    float: right;
+    font-size: 10px;
+    width: 99px;
+    height: 10px;
+    margin-left: 51px;
+}
+.navigation li a{
+    color: #818798;
+}
+.yuanjiao1{
+    width: 33px;
+    height: 170px;
+    background-image: url("images/yuanjiao1.png");
+    position: absolute;
+    left: 588px;
+    top: 411px;
+
+    animation:myfirst  linear 3s infinite  alternate ;
+    /* Firefox: */
+    -moz-animation:myfirst  linear 3s infinite  alternate ;
+    /* Safari and Chrome: */
+    -webkit-animation:myfirst  linear 3s infinite  alternate ;
+    /* Opera: */
+    -o-animation:myfirst linear 3s  infinite  alternate ;
+}
+@keyframes myfirst
+{
+    100%   { top:361px;}
+
+    50%    { top:386px;}
+
+    0%     { top:411px;}
+}
+.yuanjiao3{
+    width: 29px;
+    height: 137px;
+    background-image: url("images/yuanjiao3.png");
+    position: absolute;
+    left: 655px;
+    top: 450px;
+
+    animation:mythree  linear 4s infinite  alternate ;
+    /* Firefox: */
+    -moz-animation:mythree  linear 4s infinite  alternate ;
+    /* Safari and Chrome: */
+    -webkit-animation:mythree  linear 4s infinite  alternate ;
+    /* Opera: */
+    -o-animation:mytwo linear 4s  infinite  alternate ;
+}
+@keyframes mythree
+{
+    100%   { top:500px;}
+    75%    { top:500px;}
+    50%    { top:480px;}
+    25%    { top:450px;}
+    0%     { top:450px;}
+}
+.qiu{
+    width: 18px;
+    height: 18px;
+    background-color: #d92502;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    position: absolute;
+    top: 420px;
+    left: 50%;
+    margin-left: -9px;
+
+    animation:myqiu  linear 4s infinite alternate;
+    /* Firefox: */
+    -moz-animation:myqiu  linear 4s infinite alternate;
+    /* Safari and Chrome: */
+    -webkit-animation:myqiu  linear 4s infinite alternate;
+    /* Opera: */
+    -o-animation:myqiu linear 4s infinite alternate;
+}
+@keyframes myqiu
+{
+    0%   {left: 50%; top:360px;}
+    25%  {left: 50%; top:420px;}
+    50%  {left: 50%; top:420px;}
+    75%  {left: 50%; top:420px;}
+    100% {left: 50%; top:420px;}
+}
+.yuanjiao5{
+    width: 20px;
+    height: 159px;
+    background-image: url("images/yuanjiao5.png");
+    position: absolute;
+    left: 701px;
+    top: 437px;
+
+    animation:myfive  linear 2s infinite  alternate ;
+    /* Firefox: */
+    -moz-animation:myfive  linear 2s infinite  alternate ;
+    /* Safari and Chrome: */
+    -webkit-animation:myfive  linear 2s infinite  alternate ;
+    /* Opera: */
+    -o-animation:myfive linear 2s  infinite  alternate ;
+}
+@keyframes myfive
+{
+    0%   {top:437px;}
+    25%  {top:417px;}
+    50%  {top:397px;}
+    75%  {top:377px;}
+    100% {top:367px;}
+}
+
+
+
+.main-1{
+    background-image: url("images/main-1.jpg");
+    width: 1336px;
+    height: 883px;
+    margin: 0 auto;
+    position: relative;
+}
+.yuanjiao2{
+    width: 34px;
+    height: 42px;
+    background-image: url("images/yuanjiao2.png");
+    position: absolute;
+    left: 621px;
+}
+.yuanjiao4{
+    width: 17px;
+    height: 20px;
+    background-image: url("images/yuanjiao4.png");
+    position: absolute;
+    left: 684px;
+}
+.yuanjiao6{
+    width: 23px;
+    height: 33px;
+    background-image: url("images/yuanjiao6.png");
+    position: absolute;
+    left:721px ;
+}
+.ruanjian{
+    text-align: center;
+    display: block;
+    position: relative;
+    top: 93px;
+    font-size: 34px;
+    color: white;
+}
+.Software{
+    width: 1131px;
+    height: 280px;
+    margin: 0 auto;
+    position: absolute;
+    top: 301px;
+    left: 102px;
+}
+.html{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    line-height: 100px;
+    float: left;
+    margin-top: 90px;
+    margin-left: 115px;
+}
+.css{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    line-height: 100px;
+    float: left;
+    margin-top: 90px;
+    margin-left: 101px;
+}
+.js{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    line-height: 100px;
+    float: left;
+    margin-top: 90px;
+    margin-left: 101px;
+}
+.ps{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    line-height: 100px;
+    float: left;
+    margin-top: 90px;
+    margin-left: 101px;
+}
+.jq{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    line-height: 100px;
+    float: left;
+    margin-top: 90px;
+    margin-left: 101px;
+}
+.Software ul li{
+    -moz-transition:width 2s, height 2s, -moz-transform 1s; /* Firefox 4 */
+    -webkit-transition:width 2s, height 2s, -webkit-transform 1s; /* Safari and Chrome */
+    -o-transition:width 2s, height 2s, -o-transform 1s; /* Opera */
+}
+.Software ul li:hover{
+    transform:rotate(360deg);
+    -moz-transform:rotate(360deg); /* Firefox 4 */
+    -webkit-transform:rotate(360deg); /* Safari and Chrome */
+    -o-transform:rotate(360deg); /* Opera */
+}
+
+.jineng{
+    text-align: center;
+    display: block;
+    position: relative;
+    font-size: 34px;
+    color: white;
+    top: 635px;
+}
+.main-2{
+    width: 1336px;
+    height: 907px;
+    background-image: url("images/main-2.jpg");
+    margin: 0 auto;
+    position: relative;
+}
+.main-2 div{
+    width: 240px;
+    height: 439px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 178px;
+}
+.yuyan{
+    border-radius:8px;
+    -moz-border-radius:8px; /* 老的 Firefox */
+    left: 50%;
+    margin-left: -412px;
+}
+.kuangjia{
+    border-radius:8px;
+    -moz-border-radius:8px; /* 老的 Firefox */
+    left: 50%;
+    margin-left: -120px;
+}
+.jishu{
+    border-radius:8px;
+    -moz-border-radius:8px; /* 老的 Firefox */
+    left: 50%;
+    margin-left: 188px;
+}
+.main-2 div div{
+    top: 0;
+    width: 240px;
+    height: 91px;
+    background-color: #d82502;
+    border-top-left-radius:8px;
+    border-top-right-radius:8px;
+    -moz-border-top-right-radius:8px; /* 老的 Firefox */
+    -moz-border-top-left-radius:8px; /* 老的 Firefox */
+}
+.main-2 div div p{
+    font-size: 32px;
+    color: #fefefe;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 32px;
+}
+.main-2 div ul{
+    height: 348px;
+    width: 240px;
+    margin-top: 110px;
+}
+.main-2 div ul li{
+    text-align: center;
+    font-size: 26px;
+    color: #9d9d9d;
+    margin-top: 41px;
+    height: 50px;
+    line-height: 50px;
+}
+.main-2 div ul li:hover{
+    background-color:#d82502 ;
+}
+.gongzuo{
+    text-align: center;
+    display: block;
+    position: relative;
+    font-size: 34px;
+    color: white;
+    top: 713px;
+}
+
+
+
+
+
+
+.main-3{
+    width: 1336px;
+    height: 561px;
+    margin: 0 auto;
+    background-color: white;
+    position: relative;
+}
+#container{
+    margin: 0 auto;
+    width: 500px;
+    height: 561px;
+    overflow: hidden;
+    position: relative;
+    background-color: white;
+}
+#list{
+    float: left;
+    left: -500px;
+    width: 3000px;
+    height: 561px;
+    position: absolute;
+}
+
+#list img{
+    width: 500px;
+    height: 561px;
+    float: left;
+}
+
+#buttons{
+    position: absolute;
+    top: 500px;
+    left: 600px;
+    height: 60px;
+    width: 200px;
+}
+#buttons span{
+    cursor: pointer;
+    float: left;
+    border: 1px solid #000000;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+#buttons .on{
+    background: orangered;
+}
+
+.arrow{
+    top: 250px;
+    cursor: pointer;
+    display: none;
+    line-height: 39px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0,0,0,.3);
+    color: #FFFFFF;
+}
+.arrow:hover{
+    background-color: rgba(0,0,0,.7);
+}
+
+#container:hover .arrow{
+    display: block;
+}
+
+#prev{
+    left: 20px;
+}
+#next{
+    right: 20px;
+}
+
+
+
+
+
+
+
+.main-4{
+    width: 1336px;
+    height: 692px;
+    margin: 0 auto;
+    background-color: #d92502;
+    position: relative;
+}
+.me{
+    font-size: 32px;
+    width: 32px;
+    line-height: 50px;
+    height: 50px;
+    color: #fefefe;
+    position: absolute;
+    top: 287px;
+    left: 141px;
+}
+.zishu{
+    width: 1070px;
+    height: 692px;
+    position: absolute;
+    left: 266px;
+}
+.zishu p{
+    font-size: 26px;
+    color: #ffffff;
+    margin-top: 40px;
+    line-height: 36px;
+}
+.xingming{
+    padding-top: 120px;
+}
+
+.footer{
+    width: 1336px;
+    height: 320px;
+    margin: 0 auto;
+    background-color: #010c2b;
+    position: relative;
+}
+.erweima{
+    background-image: url("images/erweima.png");
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 60px;
+    left: 22px;
+}
+.dianhua{
+    background-image: url("images/dianhua.png");
+    width: 42px;
+    height: 42px;
+    position: absolute;
+    top: 236px;
+    left: 581px;
+}
+.QQ{
+    background-image: url("images/QQ.png");
+    width: 42px;
+    height: 42px;
+    position: absolute;
+    left: 840px;
+    top: 236px;
+}
+.github{
+    background-image: url("images/github.png");
+    width: 42px;
+    height: 42px;
+    position: absolute;
+    left: 1100px;
+    top: 236px;
+}
+.footer div p{
+    color: #ffffff;
+    font-size: 24px;
+    margin-top: 10px;
+    margin-left: 60px;
+
+}
+.footer div p a{
+    text-decoration: none;
+   width: 1000px;
+}
+
+
+
+
+
+#btn {
+    width:40px;
+    height:40px;
+    position:fixed;
+    left:50%;
+    display: none;
+    margin-left:610px;
+    bottom:30px;
+    background:url(images/dingbu.jpg) no-repeat left top;
+}
+#btn:hover {
+    background:url(images/dingbu.jpg) no-repeat 0 -39px;
+}
