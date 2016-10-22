@@ -295,19 +295,19 @@ a{
 }
 .yuyan{
     border-radius:8px;
-    -moz-border-radius:8px; /* 老的 Firefox */
+    -moz-border-radius:8px; /* 脌脧碌脛 Firefox */
     left: 50%;
     margin-left: -412px;
 }
 .kuangjia{
     border-radius:8px;
-    -moz-border-radius:8px; /* 老的 Firefox */
+    -moz-border-radius:8px; /* 脌脧碌脛 Firefox */
     left: 50%;
     margin-left: -120px;
 }
 .jishu{
     border-radius:8px;
-    -moz-border-radius:8px; /* 老的 Firefox */
+    -moz-border-radius:8px; /* 脌脧碌脛 Firefox */
     left: 50%;
     margin-left: 188px;
 }
@@ -318,8 +318,8 @@ a{
     background-color: #d82502;
     border-top-left-radius:8px;
     border-top-right-radius:8px;
-    -moz-border-top-right-radius:8px; /* 老的 Firefox */
-    -moz-border-top-left-radius:8px; /* 老的 Firefox */
+    -moz-border-top-right-radius:8px; /* 脌脧碌脛 Firefox */
+    -moz-border-top-left-radius:8px; /* 脌脧碌脛 Firefox */
 }
 .main-2 div div p{
     font-size: 32px;
@@ -367,7 +367,7 @@ a{
 }
 #container{
     margin: 0 auto;
-    width: 500px;
+    width: 1336px;
     height: 561px;
     overflow: hidden;
     position: relative;
@@ -375,18 +375,17 @@ a{
 }
 #list{
     float: left;
-    left: -500px;
-    width: 3000px;
+    left: -1336px;
+    width: 8016px;
     height: 561px;
     position: absolute;
 }
 
 #list img{
-    width: 500px;
+    width: 1336px;
     height: 561px;
     float: left;
 }
-
 #buttons{
     position: absolute;
     top: 500px;
