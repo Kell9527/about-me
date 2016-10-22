@@ -5,9 +5,9 @@
 $(function(){
         var istop=true
         $(window).scroll(function(){
-            var wheight=$(window).height() ;  //»ñÈ¡ä¯ÀÀÆ÷ÏÔÊ¾ÇøÓòµÄ¸ß¶È
-            var dheight=$(document).height() ;  //»ñÈ¡Ò³ÃæÎÄµµµÄ¸ß¶È
-            var thistop=$(window).scrollTop();//»ñÈ¡¹ö¶¯Ìõµ½¶¥²¿µÄ¸ß¶È
+            var wheight=$(window).height() ;  //è·å–æµè§ˆå™¨æ˜¾ç¤ºåŒºåŸŸçš„é«˜åº¦
+            var dheight=$(document).height() ;  //è·å–é¡µé¢æ–‡æ¡£çš„é«˜åº¦
+            var thistop=$(window).scrollTop();//è·å–æ»šåŠ¨æ¡åˆ°é¡¶éƒ¨çš„é«˜åº¦
 
             if(thistop>wheight){
                 $("#btn").css("display","block")
@@ -41,15 +41,15 @@ $(document).ready(function(){
     var num=1
     var outspeed=400
     var inspeed=400
-    $("#next").click(function(){  //ÓÒ¼ıÍ· ÏòÓÒ²¥·Å
+    $("#next").click(function(){  //å³ç®­å¤´ å‘å³æ’­æ”¾
         index ++
         var list= parseFloat($("#list").css("left"));
         $(function(){
             $("#list").fadeOut(outspeed, function (next) {
-                $("#list").css("left", list-500+"px");
+                $("#list").css("left", list-1336+"px");
                 $("#list").fadeIn(inspeed);
-                if(list<=-2000){
-                    $("#list").css("left",-500+"px");
+                if(list<=-5344){
+                    $("#list").css("left",-1336+"px");
                 }
                 $(function showbutton(){
 
@@ -65,13 +65,13 @@ $(document).ready(function(){
     })
 
 
-    $("#prev").click(function(){   //×ó¼ıÍ· Ïò×ó²¥·Å
+    $("#prev").click(function(){   //å·¦ç®­å¤´ å‘å·¦æ’­æ”¾
         index --;
         var list= parseFloat($("#list").css("left"));
         $("#list").fadeOut(outspeed, function (prev){
-            $("#list").css("left", list+500+"px");
-            if(list>=+500){
-                $("#list").css("left",-2000+"px");
+            $("#list").css("left", list+1336+"px");
+            if(list>=+1336){
+                $("#list").css("left",-5344+"px");
             }
             $("#list").fadeIn(inspeed);
             $(function showbutton(){
@@ -84,14 +84,14 @@ $(document).ready(function(){
             })
         })
     })
-    $("span").click(function () {    //°´ÕÕµãËùÔÚµÄÎ»ÖÃ  £¬È¡Í¼
+    $("span").click(function () {    //æŒ‰ç…§ç‚¹æ‰€åœ¨çš„ä½ç½®  ï¼Œå–å›¾
 
         $("span").removeClass("on")
         $(this).addClass("on");
         index=$(this).attr("index");
 //                $("#list").css("left", (index-1)*(-300)-300+"px");
         $("#list").fadeOut(outspeed, function(){
-            $("#list").css("left", (index-1)*(-500)-500+"px");
+            $("#list").css("left", (index-1)*(-1336)-1336+"px");
             $("#list").fadeIn(inspeed);
         })
     })
