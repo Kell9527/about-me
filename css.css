@@ -436,6 +436,39 @@ a{
 }
 
 
+.zuopindizhi{
+    color: white;
+    background-color: #010c2b;
+    height: 300px;
+    width:1336px;
+    margin: 0 auto;
+}
+.zuopindizhi h1{
+   text-align: center;
+    line-height: 50px;
+}
+.zuopindizhi p{
+    float: right;
+    width: 25%;
+    margin-right: 90px;
+    margin-top: 30px;
+}
+.zuopindizhi span{
+    font-size: 25px;
+    text-align: center;
+    display: block;
+}
+.zuopindizhi a{
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+    color: red;
+    font-size: 40px;
+}
+.zuopindizhi a:hover{
+    color: #00aaee;
+}
+
 
 
 
