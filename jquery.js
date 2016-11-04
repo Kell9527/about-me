@@ -4,11 +4,12 @@
 
 $(function(){
         var istop=true
+         var timer;
         $(window).scroll(function(){
             var wheight=$(window).height() ;  //获取浏览器显示区域的高度
             var dheight=$(document).height() ;  //获取页面文档的高度
             var thistop=$(window).scrollTop();//获取滚动条到顶部的高度
-
+              
             if(thistop>wheight){
                 $("#btn").css("display","block")
             }else{
